@@ -27,10 +27,6 @@
     app.use("/upload", uploadRoutes);
 
     // inicia servidor
-    app.listen(PORT, () => {
-        console.log("==================================");
-        console.log("ORVIX");
-        console.log("Servidor iniciado.");
-        console.log(`http://localhost:${PORT}`);
-        console.log("==================================");
-    });
+   app.listen(PORT, "0.0.0.0", () => {
+    console.log(`ORVIX rodando na porta ${PORT}`);
+});
