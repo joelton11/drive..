@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Orvix - Envio de Arquivos</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+<div class="container">
+
+    <h1>ORVIX</h1>
+
+    <p>Envie suas fotos, vídeos e arquivos</p>
+
+
+    <div class="drop-area" id="dropArea">
+
+        <h3>Arraste seus arquivos aqui</h3>
+
+        <span>ou</span>
+
+        <label class="button">
+
+            Escolher arquivos
+
+            <input 
+            type="file"
+            id="arquivo"
+            multiple
+            hidden>
+
+        </label>
+
+
+    </div>
+
+
+    <div id="lista"></div>
+
+
+    <button id="enviar">
+
+        Enviar arquivos
+
+    </button>
+
+
+    <div id="status"></div>
+
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
