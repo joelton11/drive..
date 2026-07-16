@@ -4,5 +4,3 @@ uploads/
 credentials/
 *.json
 client_secret_*.json
-
-!package-lock.json
